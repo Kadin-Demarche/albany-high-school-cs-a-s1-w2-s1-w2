@@ -1,4 +1,4 @@
-public class Animal {
+zpublic class Animal {
     private String type;
     private int numLimbs;
     private boolean isMammal;
