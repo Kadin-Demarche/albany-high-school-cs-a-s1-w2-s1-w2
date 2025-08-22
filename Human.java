@@ -25,4 +25,3 @@ public class Human {
         System.out.println("Eye Color: " + eyeColor);
     }
  }
- 
