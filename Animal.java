@@ -1,18 +1,17 @@
-zpublic class Animal {
+public class Animal {
     private String type;
     private int numLimbs;
     private boolean isMammal;
     private boolean isMostlyLand;
     private double weight;
 
-
     public Animal(String t){
-        t = type;
+        type = t;
     }
 
     public Animal(String t, double w){
         type = t;
-        w = weight;
+        weight = w;
     }
 
     public Animal(boolean mammal, double w){
@@ -21,23 +20,23 @@ zpublic class Animal {
         numLimbs = 4;
     }
 
-    public String isMostlyLand(){
+    public boolean isMostlyLand(){
         return isMostlyLand;
     }
     
-    public int isMammal(){
+    public boolean isMammal(){
         return isMammal;
     }
 
-    public boolean getType(){
+    public String getType(){
         return type;
     }
 
-    public String setLimbs(int n){
+    public void setLimbs(int n){
         numLimbs = n;
     }
 
-    public boolean limbs(){
+    public int getLimbs(){
         return numLimbs;
     }
 }
