@@ -1,9 +1,12 @@
 public class BodyOfWaterMain {
     public static void main(String[] args) {
         BodyOfWater b = new BodyOfWater("lakey", 10.5, 5.5, false);
-        BodyOfWater b2 = new BodyOfWater("lakey jr", 5, 5, true);
+        BodyOfWater b1 = new BodyOfWater("lakey jr", 5, 5, true);
         b.printState();
         b1.printState();
+
+        b.setName("Dried out lakey");
+        b.printState();
     }
 }
 
